@@ -45,7 +45,7 @@ function run_command(){
         element = document.getElementById('error'); 
 
       if(input == 'download'){
-        window.open('resume__jai_singhal.pdf', '_blank');
+        window.open('resume__SaurabhVj.pdf', '_blank');
       }
 
       else if(input == 'clear'){
@@ -62,7 +62,7 @@ function run_command(){
 
             cmd_output.appendChild(container);
         container.innerHTML = `<span style = "color:green">➜</span>
-    <span style = "color:cyan">[jai@root]</span> ` + input;
+    <span style = "color:cyan">[Saurabh@root]</span> ` + input;
 
     if(input != ''){
       cmd_output.appendChild(output);
