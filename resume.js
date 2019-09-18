@@ -9,7 +9,6 @@ var available_cmd = [
     "download", 
     "help", 
     "clear",
-    "ls",
   ];
 
 var cmd = document.getElementById("command");
